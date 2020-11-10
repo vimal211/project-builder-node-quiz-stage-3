@@ -35,18 +35,11 @@ Your task in this iteration is to create a
 - An account in `Mongo Atlas`
 - connection between node and atlas using mongoose.
 
-### PROGRESSION 2 | MODEL IT
-Create a prograd user model class schema
-```js
-{
-  // hint: use the shortid npm package to generate it
-  name: "Pro Grad", // String, required
-  email: "faceprep@prograd.in",  // String, required
-  age: 3,
-  prograd_id: 001,
-  squad: 64
-}
-```
+### PROGRESSION 2 | CREATE MODEL CLASSES
+Create the following model classes
+- Questions
+- Options
+- Answers
 
 ### PROGRESSION 3 | QUESTION ENDPOINTS
 
