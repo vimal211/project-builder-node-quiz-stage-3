@@ -47,11 +47,11 @@ Add the code necessary to create a Web API and implement the following _endpoint
 
 | Method | URL            | Description                                                                                            |
 | ------ | -------------- | ------------------------------------------------------------------------------------------------------ |
-| POST   | /api/questions     | Creates a user using the information sent inside the `request body`.                                   |
-| GET    | /api/questions     | Returns an array users.                                                                                |
-| GET    | /api/questions/:id | Returns the user object with the specified `id`.                                                       |
-| DELETE | /api/questions/:id | Removes the user with the specified `id` and returns the deleted user.                                 |
-| PUT    | /api/questions/:id | Updates the user with the specified `id` using data from the `request body`. Returns the modified user |
+| POST   | /api/questions     | Creates a questions using the information sent inside the `request body`.                                   |
+| GET    | /api/questions     | Returns an array of questions.                                                                                |
+| GET    | /api/questions/:id | Returns the question object with the specified `id`.                                                       |
+| DELETE | /api/questions/:id | Removes the question with the specified `id` and returns the question user.                                 |
+| PUT    | /api/questions/:id | Updates the question with the specified `id` using data from the `request body`. Returns the modified question |
 
 
 ### PROGRESSION 4 | OPTIONS ENDPOINTS
@@ -60,11 +60,11 @@ Add the code necessary to create a Web API and implement the following _endpoint
 
 | Method | URL            | Description                                                                                            |
 | ------ | -------------- | ------------------------------------------------------------------------------------------------------ |
-| POST   | /api/options     | Creates a user using the information sent inside the `request body`.                                   |
-| GET    | /api/options     | Returns an array users.                                                                                |
-| GET    | /api/options/:id | Returns the user object with the specified `id`.                                                       |
-| DELETE | /api/options/:id | Removes the user with the specified `id` and returns the deleted user.                                 |
-| PUT    | /api/options/:id | Updates the user with the specified `id` using data from the `request body`. Returns the modified user |
+| POST   | /api/options     | Creates an options using the information sent inside the `request body`.                                   |
+| GET    | /api/options     | Returns an array of options                                                                                |
+| GET    | /api/options/:id | Returns the options object with the specified `id`.                                                       |
+| DELETE | /api/options/:id | Removes the options with the specified `id` and returns the deleted user.                                 |
+| PUT    | /api/options/:id | Updates the options with the specified `id` using data from the `request body`. Returns the modified options |
 
 ### PROGRESSION 5 | ANSWERS ENDPOINTS
 
@@ -72,11 +72,11 @@ Add the code necessary to create a Web API and implement the following _endpoint
 
 | Method | URL            | Description                                                                                            |
 | ------ | -------------- | ------------------------------------------------------------------------------------------------------ |
-| POST   | /api/answers     | Creates a user using the information sent inside the `request body`.                                   |
-| GET    | /api/answers     | Returns an array users.                                                                                |
-| GET    | /api/answers/:id | Returns the user object with the specified `id`.                                                       |
-| DELETE | /api/answers/:id | Removes the user with the specified `id` and returns the deleted user.                                 |
-| PUT    | /api/answers/:id | Updates the user with the specified `id` using data from the `request body`. Returns the modified user |
+| POST   | /api/answers     | Creates an answers using the information sent inside the `request body`.                                   |
+| GET    | /api/answers     | Returns an array of answers.                                                                                |
+| GET    | /api/answers/:id | Returns the answers object with the specified `id`.                                                       |
+| DELETE | /api/answers/:id | Removes the answers with the specified `id` and returns the deleted user.                                 |
+| PUT    | /api/answers/:id | Updates the answers with the specified `id` using data from the `request body`. Returns the modified answers |
 
 
 ### PROGRESSION 6: BONUS
